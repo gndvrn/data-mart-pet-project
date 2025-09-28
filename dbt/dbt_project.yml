@@ -1,0 +1,13 @@
+name: 'data-mart-pet-project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'clickhouse'
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  halltape_etl:
+    materialized: table

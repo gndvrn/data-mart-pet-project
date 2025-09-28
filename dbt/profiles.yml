@@ -1,0 +1,13 @@
+clickhouse:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      driver: http
+      host: clickhouse
+      port: 8123
+      user: ${CLICKHOUSE_USER}
+      password: ${CLICKHOUSE_PASSWORD}
+      database: ${CLICKHOUSE_DB}
+      schema: default
+      secure: false
