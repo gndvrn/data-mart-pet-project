@@ -209,3 +209,15 @@ __marimo__/
 # MacOS
 
 .DS_Store
+
+
+# Project
+
+/airflow/logs/*
+/superset/superset_data/*
+!/airflow/logs/.gitkeep
+!/airflow/dags/.gitkeep
+
+!/scripts/.gitkeep
+
+!/dbt/models/.gitkeep
