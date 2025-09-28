@@ -215,6 +215,7 @@ __marimo__/
 
 /airflow/logs/*
 /superset/superset_data/*
+!/superset/superset_data/.gitkeep
 !/airflow/logs/.gitkeep
 !/airflow/dags/.gitkeep
 
