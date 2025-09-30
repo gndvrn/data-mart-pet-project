@@ -29,7 +29,7 @@ ENV EXECUTOR=Local
 
 COPY ./superset-init.sh /superset-init.sh
 COPY superset_config.py /app/
-COPY superset.db /app/superset_home/superset.db
+COPY /superset_data/superset.db /app/superset_home/superset.db
 ENV SUPERSET_LOAD_EXAMPLES=no
 ENV SUPERSET_CONFIG_PATH /app/superset_config.py
 

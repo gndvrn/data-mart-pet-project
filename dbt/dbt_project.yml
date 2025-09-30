@@ -9,5 +9,5 @@ target-path: "target"
 clean-targets: ["target", "dbt_packages"]
 
 models:
-  halltape_etl:
+  sample:
     materialized: table
